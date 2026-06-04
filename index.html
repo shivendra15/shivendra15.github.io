@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivendra Singh Parihar | Postdoctoral Researcher, UC Berkeley</title>
+    <link rel="preload" as="image" href="./images/profile_image.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/publications.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Shivendra Singh Parihar | Postdoctoral Researcher, UC Berkeley">
+    <meta property="og:description" content="BSIM Group, Department of EECS. Research: Compact Modeling, Cryogenic CMOS, FinFET Characterization.">
+    <meta property="og:image" content="https://people.eecs.berkeley.edu/~ssparihar/images/profile_image.jpeg">
+    <meta property="og:url" content="https://people.eecs.berkeley.edu/~ssparihar/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Shivendra Singh Parihar | UC Berkeley">
+    <meta name="twitter:description" content="Postdoctoral Researcher, BSIM Group, UC Berkeley">
+    <meta name="twitter:image" content="https://people.eecs.berkeley.edu/~ssparihar/images/profile_image.jpeg">
+
+    <!-- Basic SEO -->
+    <meta name="description" content="Shivendra Singh Parihar - Postdoctoral Researcher at BSIM Group, UC Berkeley. Research in compact modeling, cryogenic CMOS, and FinFET characterization.">
+    <meta name="author" content="Shivendra Singh Parihar">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+			<a href="#home" class="nav-brand">Shivendra S. Parihar | UC Berkeley</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+            <div class="view-toggle" id="viewToggle">
+                <span class="view-toggle-label" id="viewToggleLabel">Scroll</span>
+                <button class="view-toggle-btn active" id="btnScrollMode" onclick="setViewMode('scroll')" title="Scroll mode">
+                    <i class="fas fa-arrows-alt-v"></i>
+                </button>
+                <button class="view-toggle-btn" id="btnPageMode" onclick="setViewMode('paginated')" title="Page mode">
+                    <i class="fas fa-clone"></i>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+	<!-- Home / Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="./images/profile_image.jpeg" 
+                     fetchpriority="high"
+                     decoding="sync"
+                     alt="Shivendra Singh Parihar" 
+                     onerror="this.onerror=null; this.src='./images/profile_image.jpg';">
+            </div>
+            <div class="hero-content">
+                <h1>Shivendra Singh Parihar</h1>
+                <p class="subtitle">Postdoctoral Researcher</p>
+                <p class="affiliation">
+					<i class="fas fa-flask"></i> <a href="https://www.bdmc.berkeley.edu/" target="_blank" style="color:var(--gray); text-decoration:none;">Berkeley Device Modeling Center</a> <br>
+					<i class="fas fa-building"></i> 550 Sutardja Dai Hall (<a href="https://www.bsim.berkeley.edu/" target="_blank" style="color:var(--gray); text-decoration:none;">BSIM Group</a>)<br>
+                    <i class="fas fa-university"></i> Department of EECS, University of California, Berkeley<br>
+                    <i class="fas fa-user-tie"></i> PI: <strong>Prof. Chenming Hu</strong><br>
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:ssparihar@berkeley.edu"><i class="fas fa-envelope"></i> ssparihar@berkeley.edu</a>
+                    <!-- <a href="mailto:shivendrasinghparihar15@gmail.com"><i class="fas fa-envelope"></i> Gmail</a> -->
+                </div>
+                <div class="social-links">
+                    <a href="https://scholar.google.com/citations?user=P2szTJwAAAAJ&hl=en&authuser=4&oi=ao" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar ai-lg"></i></i></a>
+                    <a href="https://www.researchgate.net/profile/Shivendra-Singh-Parihar" title="ResearchGate" target="_blank"><i class="fab fa-researchgate"></i></a>
+                    <a href="https://www.linkedin.com/in/shivendrasinghparihar15" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a href="https://orcid.org/0000-0001-7104-2396" title="ORCID" target="_blank"><i class="fab fa-orcid"></i></a> -->
+                    <a href="https://www.bsim.berkeley.edu/members" title="BSIM Group" target="_blank"><i class="fas fa-microchip"></i></a>
+                    <a href="https://www.youtube.com/@MicroelectronicsVLSIDesign" title="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+	<section class="section" id="about">
+		<div class="section-container">
+			<h2 class="section-title fade-in">About Me</h2>
+			<div class="about-content">
+				<div class="about-text fade-in">
+					<p>
+						I am a <strong>Postdoctoral Researcher</strong> at the <strong>BSIM Group</strong>, Department of Electrical Engineering and Computer Sciences (EECS), <strong>University of California, Berkeley</strong>, USA. I joined UC Berkeley in July 2024 as a Research and Development Engineer, and transitioned to my current Postdoctoral role in December 2024.
+					</p>
+					<p>
+						My work at the BSIM Group focuses on <strong>introducing new features to the BSIM compact models</strong> and <strong>enhancing the robustness of the existing BSIM models</strong>, particularly for <strong>BULK</strong> and <strong>SOI</strong> devices. I am also affiliated with the <a href="https://www.bdmc.berkeley.edu/" target="_blank" style="color:var(--primary); font-weight:500;">Berkeley Device Modeling Center (BDMC)</a>.
+					</p>
+					<p>
+						I completed my <strong>Ph.D. in Microelectronics & VLSI</strong> from the Indian Institute of Technology Kanpur, India in 2024, where I worked under the guidance of <strong>Prof. Yogesh Singh Chauhan</strong>. My doctoral research focused on the <strong>Experimental Investigation of FinFET Devices and Circuits at Cryogenic Temperatures and High Frequencies</strong>.
+					</p>
+					<p>
+						My broader research experience spans cryogenic characterization and compact modeling of advanced node transistors (3 nm, 5 nm, 7 nm, 14 nm), RF characterization including harmonic distortion and intermodulation distortion measurements, self-heating modeling, and SRAM analysis for quantum and high-performance computing applications.
+					</p>
+
+					<h3 style="color: var(--primary); margin-top:30px; margin-bottom:15px;">Research Interests</h3>
+					<ul style="list-style:none; padding:0;">
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>BSIM Compact Model Development (BULK & SOI)</li>
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>Cryogenic CMOS for Quantum Computing</li>
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>FinFET & Nanosheet Transistor Modeling</li>
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>RF Characterization & High-Frequency Modeling</li>
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>Self-Heating Effects in Advanced Nodes</li>
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>SRAM & In-Memory Computing</li>
+						<li style="padding:5px 0; color:var(--gray);"><i class="fas fa-microchip" style="color:var(--accent); margin-right:10px;"></i>Device Characterization & Parameter Extraction</li>
+					</ul>
+
+					<h3 style="color: var(--primary); margin-top:30px; margin-bottom:15px;">Affiliations</h3>
+					<div style="display:flex; flex-wrap:wrap; gap:15px;">
+						<a href="https://www.bsim.berkeley.edu/" target="_blank" style="display:inline-flex; align-items:center; gap:8px; padding:10px 18px; background:var(--white); border:2px solid #e0e0e0; border-radius:10px; text-decoration:none; color:var(--dark); font-size:0.9rem; font-weight:500; transition:all 0.3s;">
+							<i class="fas fa-microchip" style="color:var(--primary);"></i> BSIM Group, UC Berkeley
+						</a>
+						<a href="https://www.bdmc.berkeley.edu/" target="_blank" style="display:inline-flex; align-items:center; gap:8px; padding:10px 18px; background:var(--white); border:2px solid #e0e0e0; border-radius:10px; text-decoration:none; color:var(--dark); font-size:0.9rem; font-weight:500; transition:all 0.3s;">
+							<i class="fas fa-flask" style="color:var(--primary);"></i> Berkeley Device Modeling Center
+						</a>
+						<a href="https://eecs.berkeley.edu/" target="_blank" style="display:inline-flex; align-items:center; gap:8px; padding:10px 18px; background:var(--white); border:2px solid #e0e0e0; border-radius:10px; text-decoration:none; color:var(--dark); font-size:0.9rem; font-weight:500; transition:all 0.3s;">
+							<i class="fas fa-university" style="color:var(--primary);"></i> UC Berkeley EECS
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="info-card fade-in" style="margin-bottom: 25px;">
+						<h3><i class="fas fa-graduation-cap" style="color:var(--accent);"></i> Education</h3>
+						<div class="timeline">
+							<div class="timeline-item">
+								<h3>Ph.D. — Microelectronics & VLSI</h3>
+								<p class="institution">IIT Kanpur</p>
+								<p class="period">Jul 2018 – 2024</p>
+								<p class="thesis">Thesis: Experimental Investigation of FinFET Devices and Circuits at Cryogenic Temperatures and High Frequencies</p>
+								<p class="thesis">Advisor: Prof. Yogesh Singh Chauhan</p>
+							</div>
+							<div class="timeline-item">
+								<h3>M.Tech. — Microelectronics & VLSI Design</h3>
+								<p class="institution">SGSITS Indore</p>
+								<p class="period">Jul 2016 – Jun 2018</p>
+								<p class="thesis">Thesis: Design, Characterization and Modeling of Advanced-FET Structures</p>
+							</div>
+							<div class="timeline-item">
+								<h3>B.E. — Electronics & Communication</h3>
+								<p class="institution">RGPV Bhopal</p>
+								<p class="period">Jul 2009 – Jun 2013</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="info-card fade-in" style="margin-bottom: 25px;">
+						<h3><i class="fas fa-briefcase" style="color:var(--accent);"></i> Current Position</h3>
+						<ul class="info-list">
+							<li>
+								<span class="label">Postdoctoral Researcher</span>
+								<span class="value">Dec 2024 – Present</span>
+							</li>
+							<li>
+								<span class="label">R&D Engineer, UC Berkeley</span>
+								<span class="value">Jul 2024 – Dec 2024</span>
+							</li>
+						</ul>
+						<p style="margin-top:12px; font-size:0.88rem; color:var(--gray); line-height:1.7;">
+							<strong>BSIM Group, EECS, UC Berkeley</strong><br>
+							Introducing new features to BSIM models and enhancing robustness for BULK and SOI devices.
+						</p>
+					</div>
+
+					<div class="info-card fade-in">
+						<h3><i class="fas fa-trophy" style="color:var(--accent);"></i> Honours & Awards</h3>
+						<ul class="info-list">
+							<li>
+								<span class="label">Senior Research Fellowship (MHRD)</span>
+								<span class="value">Jul 2020 – 2024</span>
+							</li>
+							<li>
+								<span class="label">Junior Research Fellowship (MHRD)</span>
+								<span class="value">Jul 2018 – Jun 2020</span>
+							</li>
+							<li>
+								<span class="label">PG Scholarship (MHRD)</span>
+								<span class="value">Jul 2016 – Jun 2018</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Technical Skills -->
+			<h3 style="color:var(--primary); font-size:1.5rem; margin-top:50px; margin-bottom:25px;" class="fade-in">Technical Skills</h3>
+			<div class="skills-grid fade-in">
+				<div class="skill-card">
+					<h4><i class="fas fa-code"></i> Scientific Tools</h4>
+					<p>VHDL, Verilog-A, Parameter Extraction Language, C/C++</p>
+				</div>
+				<div class="skill-card">
+					<h4><i class="fas fa-cogs"></i> Compact Modeling</h4>
+					<p>BSIM-CMG, BSIM-BULK, BSIM-SOI, BSIM4, BSIM3v3 using ICCAP</p>
+				</div>
+				<div class="skill-card">
+					<h4><i class="fas fa-laptop-code"></i> Circuit & System Tools</h4>
+					<p>ADS, ICCAP, Sentaurus, Global TCAD, Cadence, Mentor Graphics, HSPICE, SPECTRE, SPICE3, NGSPICE</p>
+				</div>
+				<div class="skill-card">
+					<h4><i class="fas fa-flask"></i> Device Characterization</h4>
+					<p>On-wafer DC, CV, small and large-signal RF measurements, IMD, Load-Pull measurements, Cryogenic measurements</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Research Section -->
+    <section class="section" id="research">
+        <div class="section-container">
+            <h2 class="section-title fade-in">Research Experience</h2>
+
+			<div class="research-area fade-in" style="border-left-color: #003262; border-left-width:5px;">
+				<h3> BSIM Compact Model Development </h3>
+				<span class="period-badge" style="background:#003262; color:white;">Postdoctoral Researcher | UC Berkeley | Dec 2024 – Present</span>
+				<p style="margin:10px 0; color:var(--gray); font-size:0.95rem;">
+					<strong> <a href="https://www.bsim.berkeley.edu/" target="_blank" style="margin:10px 0; color:var(--gray); font-size:0.95rem;">BSIM Group</a></strong>, Department of EECS, University of California, Berkeley<br>
+				</p>
+				<ul>
+					<li>Introducing new features to BSIM compact models</li>
+					<li>Enhancing robustness of existing BSIM models for BULK and SOI devices</li>
+					<li>Model validation, Quality Assurance, and release management</li>
+				</ul>
+			</div>
+
+			<div class="research-area fade-in" style="border-left-color: #003262;">
+				<h3>BSIM Model Development — Berkeley Device Modeling Center</h3>
+				<span class="period-badge" style="background:#003262; color:white;">Research & Development Engineer | UC Berkeley | Jul 2024 – Dec 2024</span>
+				<p style="margin:10px 0; color:var(--gray); font-size:0.95rem;">
+					<strong> <a href="https://www.bsim.berkeley.edu/" target="_blank" style="margin:10px 0; color:var(--gray); font-size:0.95rem;">BSIM Group</a></strong>, Department of EECS, University of California, Berkeley<br>
+				</p>
+				<ul>
+					<li>Development and optimization of BSIM compact models</li>
+					<li>Model validation, Quality Assurance, and release management</li>
+				</ul>
+			</div>
+
+            <div class="research-area fade-in">
+                <h3>FinFET Devices and Circuits at Cryogenic Temperatures and High Frequencies</h3>
+                <span class="period-badge">Ph.D. Scholar | IIT Kanpur | Jul 2018 – June 2024</span>
+                <ul>
+                    <li>Modeling and Simulation of Nanosheet Transistors</li>
+                    <li>Cryogenic measurements and model parameter extraction of FinFETs</li>
+                    <li>Self-heating characterization and modeling of 5 nm technology node FinFETs</li>
+                    <li>DC, small and large signal RF characterization including harmonic distortion and IMD</li>
+                    <li>Modelcard development for advanced node transistors (3 nm, 5 nm, 7 nm, 14 nm)</li>
+                    <li>SRAM analysis for control and interface circuitry of quantum and high-performance computers</li>
+                    <li>SRAM and Ferroelectric FinFET-based Ternary Content Address Memory at cryogenic temperatures</li>
+                </ul>
+            </div>
+
+            <div class="research-area fade-in">
+                <h3>Design, Characterization, and Modeling of Advanced-FET Structures</h3>
+                <span class="period-badge">Visiting Student | IIT Delhi | Jun 2017 – Jul 2018</span>
+                <ul>
+                    <li>Reliability modeling of FinFETs</li>
+                    <li>Layout designing for DC and Mismatch structures of Bulk-MOSFETs</li>
+                    <li>Modeling and Simulation of Negative Capacitance-FinFETs (NC-FinFETs)</li>
+                    <li>Global modelcard development for 180 nm CMOS technology using BSIM-BULK compact model</li>
+                    <li>Charge-based Compact modeling and TCAD-based simulation study of Drain Extended MOSFETs</li>
+                </ul>
+            </div>
+
+            <div class="research-area fade-in">
+                <h3>Development of BSIM-SOI and BSIM4 Compact Models</h3>
+                <span class="period-badge">Senior Research Associate | IIT Kanpur | Oct 2015 – Jul 2016</span>
+                <ul>
+                    <li>Modified and optimized the BSIM-SOI and BSIM4 codes</li>
+                    <li>Provided solutions for issues raised in BSIM-SOI and BSIM4 compact models</li>
+                    <li>Ran Quality Assurance tests after successful implementation of the solutions</li>
+                    <li>Documentation and release</li>
+                </ul>
+            </div>
+
+            <div class="research-area fade-in">
+                <h3>TCAD Simulation, Characterization and Parameter Extraction</h3>
+                <span class="period-badge">Research Associate | IIT Kanpur | Feb 2014 – Jul 2014</span>
+                <ul>
+                    <li>Characterized on-wafer bulk MOSFET devices</li>
+                    <li>Performed TCAD simulations of Nanowire MOSFET using Sentaurus-3D tool</li>
+                    <li>Extracted parameters using ICCAP for BSIM3v3 model for 180 nm CMOS technology</li>
+                </ul>
+            </div>
+
+            <!-- Course Projects -->
+            <h3 style="color:var(--primary); font-size:1.5rem; margin-top:50px; margin-bottom:25px;" class="fade-in">Selected Course Projects</h3>
+
+            <div class="research-area fade-in" style="border-left-color: var(--primary-light);">
+                <h3>Double Gate Ballistic Transistor: A Simulation Study</h3>
+                <span class="period-badge">Feb 2019 – Mar 2019</span>
+                <ul>
+                    <li>Implementation of charge-based MOSFET model</li>
+                    <li>Modeling of terminal charges, capacitances, and currents</li>
+                    <li>Studied Ballistic current transport including quantum effects in a Double Gate MOSFET</li>
+                </ul>
+            </div>
+
+            <div class="research-area fade-in" style="border-left-color: var(--primary-light);">
+                <h3>Modeling of MoS₂ Based 2D FET with Ballistic Transport</h3>
+                <span class="period-badge">Sep 2018 – Oct 2018</span>
+                <ul>
+                    <li>Performed modeling of Ballistic current transport in 2D transition metal dichalcogenide (TMD) material based single gate n-MOSFET</li>
+                </ul>
+            </div>
+
+            <div class="research-area fade-in" style="border-left-color: var(--primary-light);">
+                <h3>Comparative Study of Low Noise Amplifiers</h3>
+                <span class="period-badge">Feb 2017 – Mar 2017</span>
+                <ul>
+                    <li>Studied different circuit topologies and optimized circuit dimensions for LNA specifications using 180 nm CMOS technology</li>
+                    <li>Performed S-parameter and Noise analyses using Cadence tools</li>
+                </ul>
+            </div>
+
+            <!-- Teaching -->
+            <h3 style="color:var(--primary); font-size:1.5rem; margin-top:50px; margin-bottom:25px;" class="fade-in">Teaching Experience</h3>
+            <div class="research-area fade-in" style="border-left-color: #4caf50;">
+                <h3>Tutor & Teaching Assistant — IIT Kanpur</h3>
+                <span class="period-badge">7 Semesters Total</span>
+                <ul>
+                    <li><strong>Tutor (2 Semesters):</strong> Designed experiments, prepared solution material, gave hands-on tutorials, and managed the laboratory for "Introduction to Electronics"</li>
+                    <li><strong>TA:</strong> Semiconductor Device Modeling</li>
+                    <li><strong>TA:</strong> Solid State Devices I</li>
+                    <li><strong>TA:</strong> Physics of Semiconductors & Nanostructures</li>
+                    <li><strong>TA:</strong> Electronic Circuit Laboratories</li>
+                    <li><strong>TA:</strong> Introduction to Electronics Laboratories</li>
+                    <!-- <li><strong>TA:</strong> Introduction to Electronics</li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+	<section class="section" id="publications">
+		<div class="section-container">
+			<h2 class="section-title fade-in">
+				Publications
+				<span class="pub-count-badge" id="total-pub-count">Loading...</span>
+			</h2>
+
+			<!-- Google Scholar Link Button -->
+			<a href="https://scholar.google.com/citations?user=P2szTJwAAAAJ&hl=en" 
+			target="_blank" class="scholar-link-btn fade-in">
+				<i class="fas fa-graduation-cap"></i>
+				View Full Profile on Google Scholar
+			</a>
+
+			<!-- Scholar Stats (auto-populated) -->
+			<div class="scholar-stats fade-in" id="scholar-stats">
+				<div class="stat-card">
+					<span class="number" id="stat-citations">--</span>
+					<span class="label">Citations</span>
+				</div>
+				<div class="stat-card">
+					<span class="number" id="stat-hindex">--</span>
+					<span class="label">h-index</span>
+				</div>
+				<div class="stat-card">
+					<span class="number" id="stat-i10index">--</span>
+					<span class="label">i10-index</span>
+				</div>
+				<!-- <div class="stat-card">
+					<span class="number" id="stat-total">--</span>
+					<span class="label">Total Publications</span>
+				</div> -->
+				<div class="stat-card" style="background: linear-gradient(135deg, #1b5e20, #43a047);">
+					<span class="number" id="stat-journals">--</span>
+					<span class="label">Journals</span>
+				</div>
+				<div class="stat-card" style="background: linear-gradient(135deg, #e65100, #ff9800);">
+					<span class="number" id="stat-conferences">--</span>
+					<span class="label">Conferences</span>
+				</div>
+			</div>
+
+			<!-- Admin: Export buttons (visible only with ?admin=true) -->
+            <div id="admin-export" style="display:none; margin-bottom:20px; padding:15px; background:#e8f5e9; border-radius:10px; border:1px dashed #4caf50;">
+                <p style="font-size:0.85rem; color:#2e7d32; margin-bottom:10px;"><strong>🔧 Admin Panel</strong> — Export current Scholar data as fallback</p>
+                <button onclick="exportPublicationsJSON()" style="padding:10px 20px; background:#4caf50; color:white; border:none; border-radius:8px; cursor:pointer; font-size:0.9rem; margin-right:10px;">
+                    💾 Save as publications.json
+                </button>
+                <button onclick="exportPublicationsHTML()" style="padding:10px 20px; background:#1a237e; color:white; border:none; border-radius:8px; cursor:pointer; font-size:0.9rem;">
+                    📄 Save as publications_fallback.html
+                </button>
+            </div>
+
+			<!-- Search Box -->
+			<input type="text" class="pub-search-box fade-in" id="pub-search" 
+				placeholder="🔍 Search publications by title, author, or venue..." 
+				oninput="filterPublications()">
+
+			<!-- Filter Tabs -->
+			<div class="pub-filter-tabs fade-in" id="pub-filters">
+				<button class="pub-filter-btn active" onclick="filterByType('all')">All</button>
+				<button class="pub-filter-btn" onclick="filterByType('journal')">Journals</button>
+				<button class="pub-filter-btn" onclick="filterByType('conference')">Conferences</button>
+			</div>
+
+			<!-- Publications List (auto-populated) -->
+			<!-- <div id="publications-list">
+				<div class="loading-publications">
+					<div class="spinner"></div>
+					<p>Fetching publications from Google Scholar...</p>
+					<p style="font-size:0.8rem; margin-top:10px; color:#aaa;">Author ID: P2szTJwAAAAJ</p>
+				</div>
+			</div> -->
+            
+            <div id="publications-list">
+                <!-- Content loads instantly from local data; Scholar updates in background -->
+            </div>
+
+			<!-- Fallback: Manual publications (shown if all fetches fail) -->
+			<div id="publications-fallback" style="display:none;">
+				<div class="pub-category">
+					<h3><i class="fas fa-book"></i> Journal Papers (22)</h3>
+
+					<div class="pub-item">
+						<p>H Raza, M Benkhelifa, K Kumar, <span class="author-highlight">SS Parihar</span>, YS Chauhan, H Amrouch, ..., <span class="pub-title">"Evaluation of Radiation Resilience, Performance, and Vmin of Sub-3 nm FSFET based SRAM Arrays,"</span> <span class="pub-venue">IEEE Transactions on Computers, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:aqlVkmm33-oC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, F Klemme, S Alam, A Aziz, YS Chauhan, H Amrouch, <span class="pub-title">"Modeling and Evaluating Superconducting Ferroelectric SQUID Circuits,"</span> <span class="pub-venue">IEEE Transactions on Quantum Engineering, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:4TOpqqG69KYC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>S Alam, S Thomann, <span class="author-highlight">SS Parihar</span>, YS Chauhan, K Ni, H Amrouch, A Aziz, <span class="pub-title">"Energy-efficient cryogenic ternary content addressable memory using ferroelectric SQUID,"</span> <span class="pub-venue">npj Unconventional Computing 2 (1), 21, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:ULOm3_A8WrAC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Sharma, <span class="author-highlight">SS Parihar</span>, A Kar, W Wang, K Imura, YS Chauhan, <span class="pub-title">"Characterization and Modeling of SH in Multi-Finger RF LDMOS Transistors Using BSIM-BULK Model,"</span> <span class="pub-venue">IEEE Journal of the Electron Devices Society, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:QIV2ME_5wuYC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>DP Ravipati, VM van Santen, <span class="author-highlight">SS Parihar</span>, YS Chauhan, PR Panda, ..., <span class="pub-title">"Cryo-CACTI: Cryogenic-Aware CACTI for Cache Modeling down to 10K in Advanced 7nm FinFETs,"</span> <span class="pub-venue">IEEE Transactions on Computers, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:mVmsd5A6BfQC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>H Raza, <span class="author-highlight">SS Parihar</span>, YS Chauhan, H Amrouch, A Lahgere, <span class="pub-title">"An Investigation of Minimum Supply Voltage of 5nm SRAM from 300K down to 10K,"</span> <span class="pub-venue">IEEE Journal on Exploratory Solid-State Computational Devices and Circuits, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:4DMP91E08xMC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>S Deshwal, S Kumar, S Chatterjee, A Kar, <span class="author-highlight">SS Parihar</span>, YS Chauhan, ..., <span class="pub-title">"Investigating Self-Heating Effects in Ferroelectric FinFETs for Reliable In-Memory Computing,"</span> <span class="pub-venue">IEEE Journal of the Electron Devices Society, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Wp0gIr-vW9MC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, S Kumar, S Chatterjee, G Pahwa, YS Chauhan, H Amrouch, <span class="pub-title">"Cryogenic Hyper-Dimensional In-Memory Computing using Ferroelectric TCAM,"</span> <span class="pub-venue">IEEE Journal on Exploratory Solid-State Computational Devices and Circuits, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:qxL8FJ1GzNcC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, G Pahwa, B Mohammad, YS Chauhan, H Amrouch, <span class="pub-title">"Novel Trade-offs in 5 nm FinFET SRAM Arrays at Extremely Low Temperatures,"</span> <span class="pub-venue">IEEE Transactions on Quantum Engineering 6, 1-15, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:_kc_bZDykSQC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Kar, <span class="author-highlight">SS Parihar</span>, JZ Huang, H Zhang, W Wang, K Imura, YS Chauhan, <span class="pub-title">"Small-Signal and Large-Signal RF Characterization and Modeling of Low and High Voltage FinFETs for 14/16 nm Technology Node SoCs,"</span> <span class="pub-venue">IEEE Journal of the Electron Devices Society 12, 415-425, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:KlAtU1dfN6UC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, S Thomann, G Pahwa, YS Chauhan, H Amrouch, <span class="pub-title">"Cryogenic in-memory computing for quantum processors using commercial 5-nm finfets,"</span> <span class="pub-venue">IEEE Open Journal of Circuits and Systems 4, 258-270, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:0EnyYjriUFMC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>PR Genssler, F Klemme, <span class="author-highlight">SS Parihar</span>, S Brandhofer, G Pahwa, I Polian, ..., <span class="pub-title">"Cryogenic embedded system to support quantum computing: from 5-nm FinFET to full processor,"</span> <span class="pub-venue">IEEE Transactions on Quantum Engineering 4, 1-11, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:UebtZRa9Y70C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, A Pampori, P Dwivedi, J Huang, W Wang, K Imura, C Hu, ..., <span class="pub-title">"A comprehensive rf characterization and modeling methodology for the 5nm technology node finfets,"</span> <span class="pub-venue">IEEE Journal of the Electron Devices Society 11, 444-455, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Se3iqnhoufwC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, VM Van Santen, S Thomann, G Pahwa, YS Chauhan, ..., <span class="pub-title">"Cryogenic CMOS for quantum processing: 5-nm FinFET-based SRAM arrays at 10 K,"</span> <span class="pub-venue">IEEE Transactions on Circuits and Systems I: Regular Papers 70 (8), 3089-3102, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:eQOLeE2rZwMC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Kar, <span class="author-highlight">SS Parihar</span>, JZ Huang, H Zhang, W Wang, K Imura, YS Chauhan, <span class="pub-title">"Characterization and modeling of 14-/16-nm FinFET-based LDMOS,"</span> <span class="pub-venue">IEEE Transactions on Electron Devices 71 (1), 62-69, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:WF5omc3nYNoC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>M Rafiq, <span class="author-highlight">SS Parihar</span>, YS Chauhan, S Sahay, <span class="pub-title">"Efficient implementation of max-pooling algorithm exploiting history-effect in ferroelectric-FinFETs,"</span> <span class="pub-venue">IEEE Transactions on Electron Devices 69 (11), 6446-6452, 2022</span>, 2022. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Tyk-4Ss8FVUC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>CK Dabhi, <span class="author-highlight">SS Parihar</span>, A Dasgupta, YS Chauhan, <span class="pub-title">"Compact modeling of negative-capacitance FDSOI FETs for circuit simulations,"</span> <span class="pub-venue">IEEE Transactions on Electron Devices 67 (7), 2710-2716, 2020</span>, 2020. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:zYLM7Y9cAGgC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Dasgupta, <span class="author-highlight">SS Parihar</span>, H Agarwal, P Kushwaha, YS Chauhan, C Hu, <span class="pub-title">"Compact Model for Geometry Dependent Mobility in Nanosheet FETs,"</span> <span class="pub-venue">IEEE Electron Device Letters 41 (3), 313-316, 2020</span>, 2020. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:UeHWp8X0CEIC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Dasgupta, <span class="author-highlight">SS Parihar</span>, P Kushwaha, H Agarwal, MY Kao, S Salahuddin, ..., <span class="pub-title">"BSIM compact model of quantum confinement in advanced nanosheet FETs,"</span> <span class="pub-venue">IEEE Transactions on Electron Devices 67 (2), 730-737, 2020</span>, 2020. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:qjMakFHDy7sC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>R Singh, K Aditya, <span class="author-highlight">SS Parihar</span>, YS Chauhan, R Vega, TB Hook, A Dixit, <span class="pub-title">"Evaluation of 10-nm Bulk FinFET RF Performance—Conventional Versus NC-FinFET,"</span> <span class="pub-venue">IEEE Electron Device Letters 39 (8), 1246-1249, 2018</span>, 2018. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:u5HHmVD_uO8C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>CK Dabhi, <span class="author-highlight">SS Parihar</span>, H Agrawal, N Paydavosi, TH Morshed, DD Lu, ..., <span class="pub-title">"BSIM4 4.8. 1 MOSFET model,"</span> <span class="pub-venue">Dept. Elect. Eng. Comput. Sci., Univ. California, Berkeley, CA, Tech. Rep …, 2017</span>, 2017. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:W7OEmFMy1HYC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>CK Dabhi, <span class="author-highlight">SS Parihar</span>, H Agrawal, N Paydavosi, TH Morshed, DD Lu, <span class="pub-title">"BSIM4 User Manual,"</span> <span class="pub-venue">University of California, Berkeley, 2017</span>, 2017. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:IjCSPb-OGe4C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+				</div>
+
+				<div class="pub-category">
+					<h3><i class="fas fa-users"></i> Conference Papers (17)</h3>
+
+					<div class="pub-item">
+						<p>D Nandi, CK Dabhi, D Rajasekharan, N Karumuri, S Turuvekere, ..., <span class="pub-title">"Recent Enhancements in the Industry-Standard Surface Potential-Based BSIM-SOI Compact Model,"</span> <span class="pub-venue">2025 International Compact Modeling Conference (ICMC), 1-4, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:dhFuZR0502QC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Kar, <span class="author-highlight">SS Parihar</span>, F Klemme, YS Chauhan, H Amrouch, <span class="pub-title">"Benchmarking Cryogenic Circuits using 5 nm FinFETs for Quantum Processing,"</span> <span class="pub-venue">2025 IEEE International Symposium on Circuits and Systems (ISCAS), 1-5, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:7PzlFSSx8tAC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>M Benkhelifa, <span class="author-highlight">SS Parihar</span>, A Kar, G Pahwa, YS Chauhan, H Amrouch, <span class="pub-title">"Pushing the Boundaries of AI Chips: From Monolithic 3D CMOS to Cryogenic Computing,"</span> <span class="pub-venue">2025 Design, Automation & Test in Europe Conference (DATE), 1-6, 2025</span>, 2025. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:9ZlFYXVOiuMC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>B Hien, M Walter, VM van Santen, F Klemme, <span class="author-highlight">SS Parihar</span>, G Pahwa, ..., <span class="pub-title">"Technology Mapping for Cryogenic CMOS Circuits,"</span> <span class="pub-venue">2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 272-277, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:YOwf2qJgpHMC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, G Pahwa, YS Chauhan, H Amrouch, <span class="pub-title">"Impact of Self-Heating in 5nm FinFETs at Cryogenic Temperatures for Reliable Quantum Computing: Device-Circuit Interaction,"</span> <span class="pub-venue">2024 IEEE International Reliability Physics Symposium (IRPS), 1-7, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:8k81kl-MbHgC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, A Kar, W Wang, K Imura, YS Chauhan, <span class="pub-title">"Characterizing Analog Figure of Merits of 5 nm Technology Node FinFETs from 10 K to 400 K,"</span> <span class="pub-venue">2024 8th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:kNdYIx-mwKoC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>S Chatterjee, N Baruah, S Deshwal, A Kar, O Prakash, <span class="author-highlight">SS Parihar</span>, ..., <span class="pub-title">"Unveiling the Hidden Impact of Self-Heating on Ferroelectric FinFET and FDSOI based In-Memory Computing,"</span> <span class="pub-venue">2024 8th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:3fE2CSJIrl8C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>A Sharma, <span class="author-highlight">SS Parihar</span>, YH Zarkob, W Wang, K Imura, P Diwedi, ..., <span class="pub-title">"Characterization and Experimental Validation of Self Heating in RF LDMOS Transistor using BSIM-BULK Model,"</span> <span class="pub-venue">2024 8th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2024</span>, 2024. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:MXK_kJrjxJIC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>VM van Santen, M Walter, F Klemme, <span class="author-highlight">SS Parihar</span>, G Pahwa, YS Chauhan, ..., <span class="pub-title">"Design Automation for Cryogenic CMOS Circuits,"</span> <span class="pub-venue">2023 60th ACM/IEEE Design Automation Conference (DAC), 1-6, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:LkGwnXOMwfcC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, S Chatterjee, G Pahwa, YS Chauhan, H Amrouch, <span class="pub-title">"Modeling and benchmarking 5nm ferroelectric finfet from room temperature down to cryogenic temperatures,"</span> <span class="pub-venue">2023 IEEE 23rd International Conference on Nanotechnology (NANO), 643-648, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:roLk4NBRz8UC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, S Thomann, G Pahwa, YS Chauhan, H Amrouch, <span class="pub-title">"5nm FinFET Cryogenic SRAM Evaluation for Quantum Computing,"</span> <span class="pub-venue">2023 Device Research Conference (DRC), 1-2, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:hqOjcs7Dif8C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>YS Chauhan, A Kar, <span class="author-highlight">SS Parihar</span>, JZ Huang, H Zhang, W Wang, K Imura, <span class="pub-title">"High-Frequency Characterization and Modeling of Low and High Voltage FinFETs for RF SoCs,"</span> <span class="pub-venue">2023 7th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:_FxGoFyzp5QC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, G Pahwa, JZ Huang, W Wang, K Imura, C Hu, YS Chauhan, <span class="pub-title">"Cryogenic Characterization and Model Extraction of 5nm Technology Node FinFETs,"</span> <span class="pub-venue">2023 7th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2023</span>, 2023. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:YsMSGLbcyi4C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, JZ Huang, W Wang, K Imura, YS Chauhan, <span class="pub-title">"Self-Heating characterization and modeling of 5nm technology node FinFETs,"</span> <span class="pub-venue">2022 Device Research Conference (DRC), 1-2, 2022</span>, 2022. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Y0pCki6q_DkC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p>V Kumar, CK Dabhi, <span class="author-highlight">SS Parihar</span>, YS Chauhan, <span class="pub-title">"Analysis and Compact Modeling of Drain-Extended FinFET,"</span> <span class="pub-venue">2019 IEEE Conference on Modeling of Systems Circuits and Devices (MOS-AK …, 2019</span>, 2019. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:2osOgNQ5qMEC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, R Gurjar, <span class="pub-title">"Compact Modeling of Drain-Extended MOS Transistor Using BSIM-BULK Model,"</span> <span class="pub-venue">VLSI Design and Test: 23rd International Symposium, VDAT 2019, Indore, India …, 2019</span>, 2019. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:9yKSN-GCB0IC" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+					<div class="pub-item">
+						<p><span class="author-highlight">SS Parihar</span>, C Jha, R Singh, R Gurjar, A Dixit, <span class="pub-title">"Characterization and Global Parameter Extraction of bulk MOSFETs using BSIM-BULK Model,"</span> <span class="pub-venue">2018 5th IEEE Uttar Pradesh Section International Conference on Electrical …, 2018</span>, 2018. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:d1gkVwhDpl0C" class="pub-doi" target="_blank">Link</a></p>
+					</div>
+
+				</div>
+			</div>
+
+			<p class="last-updated" id="last-updated"></p>
+		</div>
+	</section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="section-container">
+            <h2 class="section-title fade-in">Gallery</h2>
+            <p style="color:var(--gray); margin-bottom:30px;" class="fade-in">Highlights from conferences, lab work, and academic events.</p>
+
+            <div class="gallery-grid fade-in">
+
+                <div class="gallery-item" onclick="openLightbox('bsimgrp')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/bsimgrp/group_Aug2025.jpeg');"></div>
+                    <div class="overlay">
+                        <p>BSIM Group</p>
+                    </div>
+                </div>
+            
+                <div class="gallery-item" onclick="openLightbox('drc_2023')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/drc_2023/drc2023_3.jpeg');"></div>
+                    <div class="overlay">
+                        <p>Device Research Conference 2023</p>
+                    </div>
+                </div>
+            
+                <div class="gallery-item" onclick="openLightbox('edtm_2024')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/edtm_2024/chenming_shivendra.jpeg');"></div>
+                    <div class="overlay">
+                        <p>EDTM 2024, Bangalore</p>
+                    </div>
+                </div>
+            
+                <div class="gallery-item" onclick="openLightbox('meas_lab')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/meas_lab/probesystem.jpeg');"></div>
+                    <div class="overlay">
+                        <p>Characterization Setup</p>
+                    </div>
+                </div>
+            
+                <div class="gallery-item" onclick="openLightbox('cmc')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/cmc/cmc2025_1.jpeg');"></div>
+                    <div class="overlay">
+                        <p>CMC Meetings</p>
+                    </div>
+                </div>
+                <!-- <div class="gallery-item" onclick="openLightbox('teaching')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/teaching/teaching_1.jpeg');"></div>
+                    <div class="overlay">
+                        <p>Teaching at IIT Kanpur</p>
+                    </div>
+                </div> -->
+            
+                <div class="gallery-item" onclick="openLightbox('iitkteam')">
+                    <div class="gallery-bg-image" style="background-image: url('./gallery/iitkteam/2019jan-1.jpeg');"></div>
+                    <div class="overlay">
+                        <p>IIT Kanpur</p>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- <div class="gallery-grid fade-in">
+
+                <div class="gallery-item" onclick="openLightbox('bsimgrp')">
+                    <img src="./gallery/bsimgrp/group_Aug2025.jpeg" 
+                        alt="BSIM, UC Berkeley"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="gallery-placeholder" style="display:none;">
+                        <div>
+                            <i class="fas fa-flask" style="font-size:2rem; margin-bottom:10px;"></i>
+                            <p>BDMC, UC Berkeley<br><small></small></p>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        <p>BSIM Group</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox('drc_2023')">
+                    <img src="./gallery/drc_2023/drc2023_3.jpeg" 
+                        alt="DRC 2023, Santa Barbara"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="gallery-placeholder" style="display:none;">
+                        <div>
+                            <i class="fas fa-microphone-alt" style="font-size:2rem; margin-bottom:10px;"></i>
+                            <p>DRC 2023<br><small>Santa Barbara, CA, USA</small></p>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        <p>Device Research Conference 2023</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox('edtm_2024')">
+                    <img src="./gallery/edtm_2024/chenming_shivendra.jpeg" 
+                        alt="IEEE EDTM 2024, Bangalore"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="gallery-placeholder" style="display:none;">
+                        <div>
+                            <i class="fas fa-globe-asia" style="font-size:2rem; margin-bottom:10px;"></i>
+                            <p>IEEE EDTM 2024<br><small>Bangalore, India</small></p>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        <p>EDTM 2024, Bangalore</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox('meas_lab')">
+                    <img src="./gallery/meas_lab/probesystem.jpeg" 
+                        alt="On-Wafer Characterization Lab"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="gallery-placeholder" style="display:none;">
+                        <div>
+                            <i class="fas fa-laptop-code" style="font-size:2rem; margin-bottom:10px;"></i>
+                            <p>On-Wafer Characterization Lab<br><small>DC IV/CV, RF, Load Pull, IMD</small></p>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        <p>Characterization Setup</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox('teaching')">
+                    <img src="./gallery/teaching/teaching_1.jpeg" 
+                        alt="Teaching at IIT Kanpur"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="gallery-placeholder" style="display:none;">
+                        <div>
+                            <i class="fas fa-chalkboard-teacher" style="font-size:2rem; margin-bottom:10px;"></i>
+                            <p>Teaching<br><small>IIT Kanpur</small></p>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        <p>Teaching at IIT Kanpur</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox('iitkteam')">
+                    <img src="./gallery/iitkteam/2019jan-1.jpeg" 
+                        alt="Nanolab Research Group"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="gallery-placeholder" style="display:none;">
+                        <div>
+                            <i class="fas fa-users" style="font-size:2rem; margin-bottom:10px;"></i>
+                            <p> YSC Research Group<br><small>Nanolab Team</small></p>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        <p>IIT Kanpur</p>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-close" onclick="closeLightbox()">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="lightbox-nav lightbox-prev" onclick="lightboxPrev()">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="lightbox-content" onclick="closeLightbox(event)">
+            <div class="lightbox-img-container" id="lightbox-img-container" onclick="event.stopPropagation()">
+                <!-- No <img> tag — uses background-image via JS -->
+            </div>
+        </div>
+        <div class="lightbox-nav lightbox-next" onclick="lightboxNext()">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="lightbox-caption">
+            <div class="caption-title" id="lightbox-caption-title"></div>
+            <div class="caption-sub" id="lightbox-caption-sub"></div>
+            <div class="lightbox-counter" id="lightbox-counter"></div>
+            <div class="lightbox-dots" id="lightbox-dots"></div>
+        </div>
+    </div>
+    <!-- Lightbox Modal -->
+    <!-- <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-close" onclick="closeLightbox()">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="lightbox-nav lightbox-prev" onclick="lightboxPrev()">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="lightbox-content" onclick="closeLightbox(event)">
+            <div class="lightbox-img-container" onclick="event.stopPropagation()">
+                <img id="lightbox-img" src="" alt="">
+            </div>
+        </div>
+        <div class="lightbox-nav lightbox-next" onclick="lightboxNext()">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="lightbox-caption">
+            <div class="caption-title" id="lightbox-caption-title"></div>
+            <div class="caption-sub" id="lightbox-caption-sub"></div>
+            <div class="lightbox-counter" id="lightbox-counter"></div>
+            <div class="lightbox-dots" id="lightbox-dots"></div>
+        </div>
+    </div> -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer-container">
+			<div>
+				<h4>Shivendra Singh Parihar, Ph.D.</h4>
+				<p>
+					Postdoctoral Researcher<br>
+					BSIM Group, Department of EECS<br>
+					University of California, Berkeley<br>
+					Berkeley, CA, USA
+				</p>
+			</div>
+			<div>
+				<h4>Quick Links</h4>
+				<p>
+					<a href="#home">Home</a> | 
+					<!-- <a href="#about">About Me</a><br> -->
+					<!-- <a href="#research">Research</a><br> -->
+					<a href="#publications">Publications</a><br>
+					<!-- <a href="#gallery">Gallery</a><br> -->
+                    <a href="https://www.youtube.com/@MicroelectronicsVLSIDesign" title="youtube" style="background:rgba(255,255,255,0.2);" target="_blank"><i class="fab fa-youtube"></i></a><br>
+                    <a href="https://www.bsim.berkeley.edu/" target="_blank"><i class="fas fa-microchip"></i> BSIM Group</a><br>
+                    <a href="https://www.bdmc.berkeley.edu/" target="_blank"><i class="fas fa-flask"></i> Berkeley Device Modeling Center</a>
+				</p>
+			</div>
+			<div>
+				<h4>Contact</h4>
+				<p>
+					<a href="mailto:ssparihar@berkeley.edu"><i class="fas fa-envelope"></i> ssparihar@berkeley.edu</a><br>
+					<!-- <a href="mailto:shivendrasinghparihar15@gmail.com"><i class="fas fa-envelope"></i> Personal Email</a><br> -->
+				</p>
+				<div class="social-links" style="margin-top:15px;">
+                    <a href="https://www.linkedin.com/in/shivendrasinghparihar15" title="LinkedIn" style="background:rgba(255,255,255,0.2);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a href="https://www.youtube.com/@MicroelectronicsVLSIDesign" title="youtube" style="background:rgba(255,255,255,0.2);" target="_blank"><i class="fab fa-youtube"></i></a> -->
+				</div>
+			</div>
+		</div>
+        <div class="footer-bottom">
+            <p style="opacity:0.5;" > &copy; <span id="currentYear"></span> Shivendra Singh Parihar. All rights reserved. | Postdoctoral Researcher, BSIM Group, UC Berkeley</p>
+            <!-- <p style="font-size:0.75rem; margin-top:8px; opacity:0.7;">
+                👁️ Page views: <span id="visit-count">...</span>
+            </p> -->
+            <p style="font-size:0.86rem; margin-top:8px; font-style:normal;">
+                <!-- Beyond research: traveler, cook, and proud native of Khajuraho, India, a UNESCO World Heritage Site. -->
+                <!-- Mapping the world through research, exploring it as a traveler, and seasoning it as a cook, all rooted in India's historic UNESCO World Heritage wonder, Khajuraho. -->
+                A mind mapping the world through research, a spirit exploring it as a traveler—with a heart proudly native to the UNESCO World Heritage wonder of Khajuraho.
+            </p>
+        </div>
+	</footer>
+
+    <!-- JavaScript -->
+    <script src="js/navigation.js"></script>
+    <script src="js/viewmode.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/scholar.js"></script>
+    <script>
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            initViewMode();
+            initScholarFetch();
+            initVisitorCounter();
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+            // Show admin panel if ?admin=true
+            if (isAdmin) {
+                const adminPanel = document.getElementById('admin-export');
+                if (adminPanel) adminPanel.style.display = 'block';
+            }
+        });
+    </script>
+    </body>
+    </html>
+
+</body>
+</html>

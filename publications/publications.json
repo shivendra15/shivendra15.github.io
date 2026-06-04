@@ -1,0 +1,366 @@
+{
+  "lastUpdated": "2026-05-28T10:32:12.998Z",
+  "authorId": "P2szTJwAAAAJ",
+  "authorName": "Shivendra Singh Parihar",
+  "stats": {
+    "citations": "455",
+    "hIndex": "10",
+    "i10Index": "13",
+    "totalPublications": 39,
+    "journals": 22,
+    "conferences": 17
+  },
+  "publications": [
+    {
+      "title": "Evaluation of Radiation Resilience, Performance, and Vmin of Sub-3 nm FSFET based SRAM Arrays",
+      "authors": "H Raza, M Benkhelifa, K Kumar, SS Parihar, YS Chauhan, H Amrouch, ...",
+      "venue": "IEEE Transactions on Computers, 2025",
+      "year": "2025",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:aqlVkmm33-oC",
+      "type": "journal"
+    },
+    {
+      "title": "Modeling and Evaluating Superconducting Ferroelectric SQUID Circuits",
+      "authors": "SS Parihar, F Klemme, S Alam, A Aziz, YS Chauhan, H Amrouch",
+      "venue": "IEEE Transactions on Quantum Engineering, 2025",
+      "year": "2025",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:4TOpqqG69KYC",
+      "type": "journal"
+    },
+    {
+      "title": "Energy-efficient cryogenic ternary content addressable memory using ferroelectric SQUID",
+      "authors": "S Alam, S Thomann, SS Parihar, YS Chauhan, K Ni, H Amrouch, A Aziz",
+      "venue": "npj Unconventional Computing 2 (1), 21, 2025",
+      "year": "2025",
+      "citations": 4,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:ULOm3_A8WrAC",
+      "type": "journal"
+    },
+    {
+      "title": "Characterization and Modeling of SH in Multi-Finger RF LDMOS Transistors Using BSIM-BULK Model",
+      "authors": "A Sharma, SS Parihar, A Kar, W Wang, K Imura, YS Chauhan",
+      "venue": "IEEE Journal of the Electron Devices Society, 2025",
+      "year": "2025",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:QIV2ME_5wuYC",
+      "type": "journal"
+    },
+    {
+      "title": "Recent Enhancements in the Industry-Standard Surface Potential-Based BSIM-SOI Compact Model",
+      "authors": "D Nandi, CK Dabhi, D Rajasekharan, N Karumuri, S Turuvekere, ...",
+      "venue": "2025 International Compact Modeling Conference (ICMC), 1-4, 2025",
+      "year": "2025",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:dhFuZR0502QC",
+      "type": "conference"
+    },
+    {
+      "title": "Benchmarking Cryogenic Circuits using 5 nm FinFETs for Quantum Processing",
+      "authors": "A Kar, SS Parihar, F Klemme, YS Chauhan, H Amrouch",
+      "venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS), 1-5, 2025",
+      "year": "2025",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:7PzlFSSx8tAC",
+      "type": "conference"
+    },
+    {
+      "title": "Cryo-CACTI: Cryogenic-Aware CACTI for Cache Modeling down to 10K in Advanced 7nm FinFETs",
+      "authors": "DP Ravipati, VM van Santen, SS Parihar, YS Chauhan, PR Panda, ...",
+      "venue": "IEEE Transactions on Computers, 2025",
+      "year": "2025",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:mVmsd5A6BfQC",
+      "type": "journal"
+    },
+    {
+      "title": "An Investigation of Minimum Supply Voltage of 5nm SRAM from 300K down to 10K",
+      "authors": "H Raza, SS Parihar, YS Chauhan, H Amrouch, A Lahgere",
+      "venue": "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits, 2025",
+      "year": "2025",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:4DMP91E08xMC",
+      "type": "journal"
+    },
+    {
+      "title": "Investigating Self-Heating Effects in Ferroelectric FinFETs for Reliable In-Memory Computing",
+      "authors": "S Deshwal, S Kumar, S Chatterjee, A Kar, SS Parihar, YS Chauhan, ...",
+      "venue": "IEEE Journal of the Electron Devices Society, 2025",
+      "year": "2025",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Wp0gIr-vW9MC",
+      "type": "journal"
+    },
+    {
+      "title": "Pushing the Boundaries of AI Chips: From Monolithic 3D CMOS to Cryogenic Computing",
+      "authors": "M Benkhelifa, SS Parihar, A Kar, G Pahwa, YS Chauhan, H Amrouch",
+      "venue": "2025 Design, Automation & Test in Europe Conference (DATE), 1-6, 2025",
+      "year": "2025",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:9ZlFYXVOiuMC",
+      "type": "conference"
+    },
+    {
+      "title": "Cryogenic Hyper-Dimensional In-Memory Computing using Ferroelectric TCAM",
+      "authors": "SS Parihar, S Kumar, S Chatterjee, G Pahwa, YS Chauhan, H Amrouch",
+      "venue": "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits, 2025",
+      "year": "2025",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:qxL8FJ1GzNcC",
+      "type": "journal"
+    },
+    {
+      "title": "Novel Trade-offs in 5 nm FinFET SRAM Arrays at Extremely Low Temperatures",
+      "authors": "SS Parihar, G Pahwa, B Mohammad, YS Chauhan, H Amrouch",
+      "venue": "IEEE Transactions on Quantum Engineering 6, 1-15, 2024",
+      "year": "2024",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:_kc_bZDykSQC",
+      "type": "journal"
+    },
+    {
+      "title": "Technology Mapping for Cryogenic CMOS Circuits",
+      "authors": "B Hien, M Walter, VM van Santen, F Klemme, SS Parihar, G Pahwa, ...",
+      "venue": "2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 272-277, 2024",
+      "year": "2024",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:YOwf2qJgpHMC",
+      "type": "conference"
+    },
+    {
+      "title": "Impact of Self-Heating in 5nm FinFETs at Cryogenic Temperatures for Reliable Quantum Computing: Device-Circuit Interaction",
+      "authors": "SS Parihar, G Pahwa, YS Chauhan, H Amrouch",
+      "venue": "2024 IEEE International Reliability Physics Symposium (IRPS), 1-7, 2024",
+      "year": "2024",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:8k81kl-MbHgC",
+      "type": "conference"
+    },
+    {
+      "title": "Small-Signal and Large-Signal RF Characterization and Modeling of Low and High Voltage FinFETs for 14/16 nm Technology Node SoCs",
+      "authors": "A Kar, SS Parihar, JZ Huang, H Zhang, W Wang, K Imura, YS Chauhan",
+      "venue": "IEEE Journal of the Electron Devices Society 12, 415-425, 2024",
+      "year": "2024",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:KlAtU1dfN6UC",
+      "type": "journal"
+    },
+    {
+      "title": "Characterizing Analog Figure of Merits of 5 nm Technology Node FinFETs from 10 K to 400 K",
+      "authors": "SS Parihar, A Kar, W Wang, K Imura, YS Chauhan",
+      "venue": "2024 8th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2024",
+      "year": "2024",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:kNdYIx-mwKoC",
+      "type": "conference"
+    },
+    {
+      "title": "Unveiling the Hidden Impact of Self-Heating on Ferroelectric FinFET and FDSOI based In-Memory Computing",
+      "authors": "S Chatterjee, N Baruah, S Deshwal, A Kar, O Prakash, SS Parihar, ...",
+      "venue": "2024 8th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2024",
+      "year": "2024",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:3fE2CSJIrl8C",
+      "type": "conference"
+    },
+    {
+      "title": "Characterization and Experimental Validation of Self Heating in RF LDMOS Transistor using BSIM-BULK Model",
+      "authors": "A Sharma, SS Parihar, YH Zarkob, W Wang, K Imura, P Diwedi, ...",
+      "venue": "2024 8th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2024",
+      "year": "2024",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:MXK_kJrjxJIC",
+      "type": "conference"
+    },
+    {
+      "title": "Cryogenic in-memory computing for quantum processors using commercial 5-nm finfets",
+      "authors": "SS Parihar, S Thomann, G Pahwa, YS Chauhan, H Amrouch",
+      "venue": "IEEE Open Journal of Circuits and Systems 4, 258-270, 2023",
+      "year": "2023",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:0EnyYjriUFMC",
+      "type": "journal"
+    },
+    {
+      "title": "Cryogenic embedded system to support quantum computing: from 5-nm FinFET to full processor",
+      "authors": "PR Genssler, F Klemme, SS Parihar, S Brandhofer, G Pahwa, I Polian, ...",
+      "venue": "IEEE Transactions on Quantum Engineering 4, 1-11, 2023",
+      "year": "2023",
+      "citations": 28,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:UebtZRa9Y70C",
+      "type": "journal"
+    },
+    {
+      "title": "A comprehensive rf characterization and modeling methodology for the 5nm technology node finfets",
+      "authors": "SS Parihar, A Pampori, P Dwivedi, J Huang, W Wang, K Imura, C Hu, ...",
+      "venue": "IEEE Journal of the Electron Devices Society 11, 444-455, 2023",
+      "year": "2023",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Se3iqnhoufwC",
+      "type": "journal"
+    },
+    {
+      "title": "Design Automation for Cryogenic CMOS Circuits",
+      "authors": "VM van Santen, M Walter, F Klemme, SS Parihar, G Pahwa, YS Chauhan, ...",
+      "venue": "2023 60th ACM/IEEE Design Automation Conference (DAC), 1-6, 2023",
+      "year": "2023",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:LkGwnXOMwfcC",
+      "type": "conference"
+    },
+    {
+      "title": "Modeling and benchmarking 5nm ferroelectric finfet from room temperature down to cryogenic temperatures",
+      "authors": "SS Parihar, S Chatterjee, G Pahwa, YS Chauhan, H Amrouch",
+      "venue": "2023 IEEE 23rd International Conference on Nanotechnology (NANO), 643-648, 2023",
+      "year": "2023",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:roLk4NBRz8UC",
+      "type": "conference"
+    },
+    {
+      "title": "5nm FinFET Cryogenic SRAM Evaluation for Quantum Computing",
+      "authors": "SS Parihar, S Thomann, G Pahwa, YS Chauhan, H Amrouch",
+      "venue": "2023 Device Research Conference (DRC), 1-2, 2023",
+      "year": "2023",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:hqOjcs7Dif8C",
+      "type": "conference"
+    },
+    {
+      "title": "Cryogenic CMOS for quantum processing: 5-nm FinFET-based SRAM arrays at 10 K",
+      "authors": "SS Parihar, VM Van Santen, S Thomann, G Pahwa, YS Chauhan, ...",
+      "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers 70 (8), 3089-3102, 2023",
+      "year": "2023",
+      "citations": 52,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:eQOLeE2rZwMC",
+      "type": "journal"
+    },
+    {
+      "title": "Characterization and modeling of 14-/16-nm FinFET-based LDMOS",
+      "authors": "A Kar, SS Parihar, JZ Huang, H Zhang, W Wang, K Imura, YS Chauhan",
+      "venue": "IEEE Transactions on Electron Devices 71 (1), 62-69, 2023",
+      "year": "2023",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:WF5omc3nYNoC",
+      "type": "journal"
+    },
+    {
+      "title": "High-Frequency Characterization and Modeling of Low and High Voltage FinFETs for RF SoCs",
+      "authors": "YS Chauhan, A Kar, SS Parihar, JZ Huang, H Zhang, W Wang, K Imura",
+      "venue": "2023 7th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2023",
+      "year": "2023",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:_FxGoFyzp5QC",
+      "type": "conference"
+    },
+    {
+      "title": "Cryogenic Characterization and Model Extraction of 5nm Technology Node FinFETs",
+      "authors": "SS Parihar, G Pahwa, JZ Huang, W Wang, K Imura, C Hu, YS Chauhan",
+      "venue": "2023 7th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 1-3, 2023",
+      "year": "2023",
+      "citations": 12,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:YsMSGLbcyi4C",
+      "type": "conference"
+    },
+    {
+      "title": "Efficient implementation of max-pooling algorithm exploiting history-effect in ferroelectric-FinFETs",
+      "authors": "M Rafiq, SS Parihar, YS Chauhan, S Sahay",
+      "venue": "IEEE Transactions on Electron Devices 69 (11), 6446-6452, 2022",
+      "year": "2022",
+      "citations": 20,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Tyk-4Ss8FVUC",
+      "type": "journal"
+    },
+    {
+      "title": "Self-Heating characterization and modeling of 5nm technology node FinFETs",
+      "authors": "SS Parihar, JZ Huang, W Wang, K Imura, YS Chauhan",
+      "venue": "2022 Device Research Conference (DRC), 1-2, 2022",
+      "year": "2022",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:Y0pCki6q_DkC",
+      "type": "conference"
+    },
+    {
+      "title": "Compact modeling of negative-capacitance FDSOI FETs for circuit simulations",
+      "authors": "CK Dabhi, SS Parihar, A Dasgupta, YS Chauhan",
+      "venue": "IEEE Transactions on Electron Devices 67 (7), 2710-2716, 2020",
+      "year": "2020",
+      "citations": 28,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:zYLM7Y9cAGgC",
+      "type": "journal"
+    },
+    {
+      "title": "Compact Model for Geometry Dependent Mobility in Nanosheet FETs",
+      "authors": "A Dasgupta, SS Parihar, H Agarwal, P Kushwaha, YS Chauhan, C Hu",
+      "venue": "IEEE Electron Device Letters 41 (3), 313-316, 2020",
+      "year": "2020",
+      "citations": 43,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:UeHWp8X0CEIC",
+      "type": "journal"
+    },
+    {
+      "title": "BSIM compact model of quantum confinement in advanced nanosheet FETs",
+      "authors": "A Dasgupta, SS Parihar, P Kushwaha, H Agarwal, MY Kao, S Salahuddin, ...",
+      "venue": "IEEE Transactions on Electron Devices 67 (2), 730-737, 2020",
+      "year": "2020",
+      "citations": 78,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:qjMakFHDy7sC",
+      "type": "journal"
+    },
+    {
+      "title": "Analysis and Compact Modeling of Drain-Extended FinFET",
+      "authors": "V Kumar, CK Dabhi, SS Parihar, YS Chauhan",
+      "venue": "2019 IEEE Conference on Modeling of Systems Circuits and Devices (MOS-AK …, 2019",
+      "year": "2019",
+      "citations": 4,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:2osOgNQ5qMEC",
+      "type": "conference"
+    },
+    {
+      "title": "Compact Modeling of Drain-Extended MOS Transistor Using BSIM-BULK Model",
+      "authors": "SS Parihar, R Gurjar",
+      "venue": "VLSI Design and Test: 23rd International Symposium, VDAT 2019, Indore, India …, 2019",
+      "year": "2019",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:9yKSN-GCB0IC",
+      "type": "conference"
+    },
+    {
+      "title": "Characterization and Global Parameter Extraction of bulk MOSFETs using BSIM-BULK Model",
+      "authors": "SS Parihar, C Jha, R Singh, R Gurjar, A Dixit",
+      "venue": "2018 5th IEEE Uttar Pradesh Section International Conference on Electrical …, 2018",
+      "year": "2018",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:d1gkVwhDpl0C",
+      "type": "conference"
+    },
+    {
+      "title": "Evaluation of 10-nm Bulk FinFET RF Performance—Conventional Versus NC-FinFET",
+      "authors": "R Singh, K Aditya, SS Parihar, YS Chauhan, R Vega, TB Hook, A Dixit",
+      "venue": "IEEE Electron Device Letters 39 (8), 1246-1249, 2018",
+      "year": "2018",
+      "citations": 72,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:u5HHmVD_uO8C",
+      "type": "journal"
+    },
+    {
+      "title": "BSIM4 4.8. 1 MOSFET model",
+      "authors": "CK Dabhi, SS Parihar, H Agrawal, N Paydavosi, TH Morshed, DD Lu, ...",
+      "venue": "Dept. Elect. Eng. Comput. Sci., Univ. California, Berkeley, CA, Tech. Rep …, 2017",
+      "year": "2017",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:W7OEmFMy1HYC",
+      "type": "journal"
+    },
+    {
+      "title": "BSIM4 User Manual",
+      "authors": "CK Dabhi, SS Parihar, H Agrawal, N Paydavosi, TH Morshed, DD Lu",
+      "venue": "University of California, Berkeley, 2017",
+      "year": "2017",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:IjCSPb-OGe4C",
+      "type": "journal"
+    }
+  ]
+}
