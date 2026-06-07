@@ -50,10 +50,25 @@ def classify_publication(venue):
 
 
 def fetch_scholar_data():
-    """Fetch data from Google Scholar."""
+    """Fetch data from Google Scholar with retry and proxy."""
     print(f"Fetching data for author ID: {AUTHOR_ID}")
     
     try:
+        # Use free proxy to avoid blocking
+        from scholarly import ProxyGenerator
+        
+        pg = ProxyGenerator()
+        
+        # Try FreeProxy first
+        try:
+            pg.FreeProxies()
+            scholarly.use_proxy(pg)
+            print("Using free proxy...")
+        except Exception as e:
+            print(f"Free proxy failed: {e}")
+            # Try without proxy as fallback
+            print("Trying without proxy...")
+        
         # Search by author ID
         author = scholarly.search_author_id(AUTHOR_ID)
         author = scholarly.fill(author, sections=['basics', 'indices', 'publications'])
@@ -69,24 +84,18 @@ def fetch_scholar_data():
         # Extract publications
         publications = []
         for pub in author.get('publications', []):
-            # Fill publication details
-            try:
-                pub_filled = scholarly.fill(pub)
-            except:
-                pub_filled = pub
-            
-            bib = pub_filled.get('bib', {})
+            bib = pub.get('bib', {})
             
             title = bib.get('title', '')
             authors = bib.get('author', '')
             venue = bib.get('venue', '') or bib.get('journal', '') or bib.get('booktitle', '')
             year = str(bib.get('pub_year', ''))
-            cited_by = pub_filled.get('num_citations', 0)
+            cited_by = pub.get('num_citations', 0)
             
             # Get link
-            pub_url = pub_filled.get('author_pub_id', '')
-            if pub_url:
-                link = f"https://scholar.google.com/citations?view_op=view_citation&hl=en&user={AUTHOR_ID}&citation_for_view={AUTHOR_ID}:{pub_url.split(':')[-1] if ':' in pub_url else pub_url}"
+            pub_id = pub.get('author_pub_id', '')
+            if pub_id:
+                link = f"https://scholar.google.com/citations?view_op=view_citation&hl=en&user={AUTHOR_ID}&citation_for_view={pub_id}"
             else:
                 link = ''
             
@@ -130,7 +139,6 @@ def fetch_scholar_data():
     except Exception as e:
         print(f"Error fetching data: {e}")
         return None
-
 
 def main():
     """Main function."""
