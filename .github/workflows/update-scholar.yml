@@ -20,10 +20,10 @@ jobs:
           python-version: '3.11'
         env:
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
+      
       - name: Install dependencies
         run: |
-          pip install scholarly beautifulsoup4 requests
+          pip install scholarly beautifulsoup4 requests free-proxy
 
       - name: Fetch Google Scholar data
         run: python scripts/fetch_scholar.py
