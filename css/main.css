@@ -249,6 +249,121 @@ body {
     background: var(--accent);
 }
 
+/* ===== NEWS SECTION STYLES ===== */
+.news-section {
+    padding: 60px 30px;
+    background: var(--white);
+}
+
+.news-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.news-list {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.news-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+    background: var(--primary-light);
+    border-radius: 3px;
+}
+
+.news-item {
+    display: flex;
+    gap: 20px;
+    padding: 18px 20px;
+    border-left: 3px solid transparent;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+    align-items: flex-start;
+}
+
+.news-item:hover {
+    background: #f8f9ff;
+    border-left-color: var(--accent);
+}
+
+.news-date {
+    min-width: 90px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    padding-top: 2px;
+    white-space: nowrap;
+}
+
+.news-content {
+    font-size: 0.95rem;
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+.news-content a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.news-content a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.news-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.badge-paper {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.badge-award {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.badge-talk {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.badge-position {
+    background: #fce4ec;
+    color: #c62828;
+}
+
+.badge-new {
+    background: #ff6f00;
+    color: white;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
 /* About Section */
 .about-content {
     display: grid;
