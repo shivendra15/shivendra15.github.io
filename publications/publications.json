@@ -3,17 +3,35 @@
   "authorId": "P2szTJwAAAAJ",
   "authorName": "Shivendra Singh Parihar",
   "stats": {
-    "citations": "460",
+    "citations": "462",
     "hIndex": "10",
     "i10Index": "13",
-    "totalPublications": 39,
-    "journals": 22,
-    "conferences": 17
+    "totalPublications": 41,
+    "journals": 23,
+    "conferences": 18
   },
   "publications": [
     {
+      "title": "Accurate High-Temperature Modeling of GaN HEMTs Within ASM-HEMT Framework",
+      "authors": "MM Shayoub, S Thakur, SS Parihar, YS Chauhan",
+      "venue": "2026 International Compact Modeling Conference (ICMC), 1-4, 2026",
+      "year": "2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?user=P2szTJwAAAAJ&hl=en&authuser=5",
+      "type": "conference"
+    },
+    {
+      "title": "Pushing the Limits of Computing: Transistor-to-Processor Benchmarking at 77K with Self-Heating Effect",
+      "authors": "SS Parihar, F Klemme, A Kar, YS Chauhan, H Amrouch",
+      "venue": "IEEE Transactions on Computers, 2026",
+      "year": "2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?user=P2szTJwAAAAJ&hl=en&authuser=5",
+      "type": "journal"
+    },
+    {
       "title": "Evaluation of Radiation Resilience, Performance, and Vmin of Sub-3 nm FSFET based SRAM Arrays",
-      "authors": "H Raza, M Benkhelifa, K Kumar, SS Parihar, YS Chauhan, H Amrouch, ...",
+      "authors": "H Raza, M Benkhelifa, K Kumar, SS Parihar, YS Chauhan, H Amrouch, Avinash Lahgere",
       "venue": "IEEE Transactions on Computers, 2025",
       "year": "2025",
       "citations": 3,
@@ -304,7 +322,7 @@
       "authors": "A Dasgupta, SS Parihar, P Kushwaha, H Agarwal, MY Kao, S Salahuddin, ...",
       "venue": "IEEE Transactions on Electron Devices 67 (2), 730-737, 2020",
       "year": "2020",
-      "citations": 78,
+      "citations": 80,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P2szTJwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=P2szTJwAAAAJ:qjMakFHDy7sC",
       "type": "journal"
     },
